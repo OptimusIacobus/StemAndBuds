@@ -1,0 +1,98 @@
+﻿/*
+    Created: 3/2/2020 by Jacob Pan
+    Purpose: Preset fonts and other general design features that are used on all pages 
+*/
+
+/* GENERAL */
+:root {
+    --main-color:#5CDB95;
+    --secondary-color: #8EE4AF;
+    --third-color: #EDF5E1;
+    --fourth-color: #05386B;
+    --fifth-color: #379683;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 20px;
+}
+
+p {
+    font-family: "Archivo";
+}
+
+.width-constraint {
+    width: 80%;
+    margin: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+/* FONTS */
+.title {
+    font-size: 10vw;
+    font-weight: 600;
+}
+
+/* NAVBAR */
+.navbar {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 0;
+    font-size: 16px !important;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;/*for safari*/
+    background-color: white;
+    opacity: .7;
+    z-index: 1000;
+}
+   
+    
+
+.navbar-brand {
+    font-size: 2em;
+    font-family: "Lato";
+}
+
+.nav-item {
+    font-size: 1.5em;
+    font-family: "Lato";
+}
+
+
+
+/* SECTIONS */
+
+.header {
+    background-size: cover;
+    height: 60vh;
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 20vh;
+}
+
+.contact-info {
+    text-align: center;
+    background-color: lightgray;
+}
+
+    .contact-info p {
+        font-family: "Karla";
+    }
+
+.footer {
+    text-align: center;
+    background-color: black;
+    font-size: 1rem;
+    color: white;
+}
+
+    .footer p {
+        margin-bottom: .5rem;
+        font-family: "Karla";
+    }

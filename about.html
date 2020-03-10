@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Stem & Buds</title>
+    <link rel="shortcut icon" type="image/png" href="images/logo.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="keywords" content="pittsburgh, stem, stembuds, technology, science" />
+    <meta name="description" content="Stem & Buds is a non profit organization to educate stem">
+
+    <!-- JS Script for scroll -->
+    <script src="scripts/scroll.js"></script>
+
+    <!-- CDN CSS APIS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <!-- CDN JS APIS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- LOCAL CSS FILES -->
+    <link rel="stylesheet" type="text/css" href="styles/about.css">
+    <link rel="stylesheet" type="text/css" href="styles/design.css">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+
+    <!-- Icons -->
+    <link type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <!--nav bar-->
+
+    <nav class="navbar navbar-expand-lg rounded sticky-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo.svg" class="logo" align="left" hspace="20" style="margin-top: -17px;" id="logo-image">
+            LOGO HERE
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a href="about.html" class="nav-link">ABOUT</a></li>
+                <li class="nav-item"><a href="chapters.html" class="nav-link">CHAPTERS</a></li>
+                <li class="nav-item"><a href="camps.html" class="nav-link">CAMPS</a></li>
+                <li class="nav-item"><a href="outreach.html" class="nav-link">OUTREACH</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- MAIN HEADER -->
+    <div class="container-fluid header">
+        <div class="title animated fadeInDown">ABOUT</div>
+    </div>
+    
+
+    <!-- FOOTER -->
+    <!-- Contact info -->
+    <div class="container-fluid width-contraint contact-info section" id="contact">
+        <h1>CONTACT</h1>
+        <b>Questions, comments, or concerns?</b>
+        <p>Feel free to contact us at anytime.</p>
+        <a href="stemand budsss">stem and buds email</a>
+    </div>
+
+    <!-- footer -->
+    <footer class="container-fluid footer section">
+        <p>Stem&Buds is a non-profit organization that's pretty cool</a></p>
+        <p>&copy;2020 Jacob Pan. All rights reserved. Designed and developed by Jacob Pan.</p>
+    </footer>
+
+
+    <!-- JS for enabling dropdown menu -->
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("activeD");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+</body>
+</html>

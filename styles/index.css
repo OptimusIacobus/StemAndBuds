@@ -1,0 +1,28 @@
+﻿body {
+}
+
+/* SECTIONS */
+.hero {
+    background: url("../images/heroimagebg.jpg");
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    padding-top: 25vh;
+    padding-bottom: 20vh;
+}
+
+.section {
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
+
+/* FONTS */
+h2 {
+    font-size: 4.5rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
