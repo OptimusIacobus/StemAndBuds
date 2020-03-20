@@ -29,13 +29,13 @@
 }
 
 .signupbtn {
-    font-size: 1em;
+    font-size: .6em;
 }
 
 /* phone screens */
 @media (max-width: 687px ) {
     .signupbtn {
-        font-size: .6em;
+        font-size: .3em;
     }
 }
 
