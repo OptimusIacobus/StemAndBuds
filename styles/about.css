@@ -38,7 +38,7 @@
     vertical-align: middle;
     padding-top: 5vh;
     padding-bottom: 5vh;
-    height: 25vh;
+    height: 25%;
     font-size: 2em;
     font-weight: 800;
     background-color: var(--third-color);
@@ -89,7 +89,7 @@
 }
 
 .carousel-item {
-    height: 700px;
+    height: 20%;
     overflow: hidden;
 }
 

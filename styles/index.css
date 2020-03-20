@@ -4,18 +4,17 @@
 /* SECTIONS */
 .hero {
     background: url("../images/heroimagebg3.png");
-    margin: 0;
     background-size: cover;
-    max-width: 100vw;
+    max-width: 100%;
     height: 110vh;
     text-align: center;
-    padding-top: 25vh;
-    padding-bottom: 20vh;
+    padding-top: 15%;
+    padding-bottom: 20%;
     margin-top: -10vh;
 }
 
 .title {
-    margin-top: 10vh;
+    margin-top: 8%;
 }
 
 .carousel-section {
@@ -54,7 +53,7 @@
 }
 
 .row .partner, .row .chapter {
-    height: 40vh;
+    height: 300px;
     vertical-align: middle;
     color: white;
 }
