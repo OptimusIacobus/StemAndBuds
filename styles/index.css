@@ -18,21 +18,26 @@ br {
 }
 
 .carousel-section {
-    padding-right: 10vw;
-    padding-left: 10vw;
-    padding-bottom: 10vh;
-    padding-top: 10vh;
+    padding: 5% 10% 5% 10%;
+    max-width: 80%;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
 }
 
 .carousel-caption h3 {
     color: black;
     background: rgba(0, 0, 0, 0.1);
+    font-size: 1.3em;
 }
 
 /* phone screens */
 @media (max-width: 687px ) {
     .carousel-caption h3 {
-        font-size: 1.4em;
+        font-size: 1.2em;
     }    
 }
 .carousel-item {
@@ -41,9 +46,17 @@ br {
 }
 
 .carousel-item img {
-    width: 30%;
+    height: 150px;
     display: block;
     margin: 0 auto;
+}
+
+
+/* phone screens */
+@media (max-width: 687px ) {
+    .carousel-item img {
+        height: 100px;
+    }
 }
 
 .carousel-indicators li {
@@ -75,7 +88,7 @@ br {
 }
 
 .chapter {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/chaptersbg2.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/chaptersbg2.JPG");
     background-size: 100% 100%;
 }
 

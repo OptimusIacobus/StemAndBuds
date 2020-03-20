@@ -8,7 +8,7 @@
     margin: 0 auto;
     max-width: 80%;
     align-items: center;
-    padding: 5%;
+    padding-top: 5%;
 }
 
 .listmissionhow {
@@ -99,10 +99,9 @@
 /* CAROUSEL */
 
 .carousel-section {
-    padding-right: 10vw;
-    padding-left: 10vw;
-    padding-bottom: 10vh;
-    padding-top: 10vh;
+    width:60%;
+    align-content: center;
+    margin: 0 auto;
 }
 
 .carousel-item {
@@ -111,7 +110,7 @@
 }
 
     .carousel-item img {
-        width: 70%;
+        width: 100%;
         display: block;
         margin: 0 auto;
     }
