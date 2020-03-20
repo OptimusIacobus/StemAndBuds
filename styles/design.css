@@ -92,11 +92,13 @@ br {
 .navbar-light .navbar-nav .nav-link {
     color: var(--main-color);
     font-size: 1.4em;
+    transition-property: color;
+    transition-delay: .3s;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: var(--secondary-color);
-    transition-delay: .3s;
+    
 }
 
 .dropdown:hover > .dropdown-menu {
@@ -155,7 +157,7 @@ br {
 
 .contact-info {
     text-align: center;
-    background-color: lightgray;
+    background-color: var(--third-color);
 }
 
     .contact-info p {

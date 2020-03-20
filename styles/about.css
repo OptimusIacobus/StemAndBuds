@@ -8,6 +8,11 @@
     margin: 0 auto;
     max-width: 80%;
     align-items: center;
+    padding: 5%;
+}
+
+.listmissionhow {
+    font-size: 2em;
 }
 
 /* SECTIONS */
@@ -19,6 +24,7 @@
 
 .value-items {
     align-content: center;
+    font-size: 1.5em;
 }
 
 .sponsor {
@@ -30,6 +36,20 @@
     margin: 0 auto;
 }
 
+.cofounders-section {
+    padding-top: -5%;
+    background-color: var(--third-color);
+}
+
+.volunteers-section {
+    background-color: var(--fourth-color);
+    color: white;
+}
+
+.sponsor-section {
+    
+}
+
 .join-us-section {
     text-align: center;
     vertical-align: middle;
@@ -38,7 +58,7 @@
     height: 25%;
     font-size: 2em;
     font-weight: 800;
-    background-color: var(--third-color);
+    background-color: var(--fifth-color);
     font-family: 'Alatsi', sans-serif;
 }
 

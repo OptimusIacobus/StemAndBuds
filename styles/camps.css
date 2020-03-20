@@ -52,8 +52,17 @@
     font-family: 'Alatsi', sans-serif;
 }
 
+.info-outer-section {
+    background-color: var(--fourth-color);
+    color: var(--third-color);
+}
+
 .info-section {
     margin: 5vh;
+}
+
+.info-section .collapse {
+    font-size: 2em;
 }
 
 .video-container {
