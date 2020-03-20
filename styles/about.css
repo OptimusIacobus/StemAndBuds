@@ -28,6 +28,17 @@
     font-size: 1.8em;
 }
 
+.signupbtn {
+    font-size: 1em;
+}
+
+/* phone screens */
+@media (max-width: 687px ) {
+    .signupbtn {
+        font-size: .6em;
+    }
+}
+
 /* SECTIONS */
 .header {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/aboutbg.jpg");
