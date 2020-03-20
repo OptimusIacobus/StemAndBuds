@@ -12,7 +12,15 @@
 }
 
 .listmissionhow {
-    font-size: 2em;
+    font-size: 1.5em;
+}
+
+.section-title {
+    font-size: 2.3em;
+}
+
+.media-heading {
+    font-size: 1.8em;
 }
 
 /* SECTIONS */
@@ -24,7 +32,7 @@
 
 .value-items {
     align-content: center;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .sponsor {
