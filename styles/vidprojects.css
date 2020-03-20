@@ -1,7 +1,11 @@
 ﻿body {
 }
 
+.card-title {
+    font-size: 2em;
+}
+
 .btn-primary {
     background-color: var(--main-color);
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
