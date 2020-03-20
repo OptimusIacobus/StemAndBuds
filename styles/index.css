@@ -3,21 +3,64 @@
 
 /* SECTIONS */
 .hero {
-    background: url("../images/heroimagebg2.jpg");
+    background: url("../images/heroimagebg3.png");
     margin: 0;
     background-size: cover;
     max-width: 100vw;
-    height: 100vh;
+    height: 110vh;
     text-align: center;
     padding-top: 25vh;
     padding-bottom: 20vh;
+    margin-top: -10vh;
 }
 
-.section {
-    padding-right: 5vw;
-    padding-left: 5vw;
-    padding-bottom: 5vh;
-    padding-top: 5vh;
+.title {
+    margin-top: 10vh;
+}
+
+.carousel-section {
+    padding-right: 10vw;
+    padding-left: 10vw;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+}
+
+.carousel-caption h3 {
+   color: black;
+}
+
+.carousel-item {
+    height: 700px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.carousel-indicators li {
+    background-color: black;
+}
+
+.carousel-indicators .active {
+    background-color: var(--secondary-color);
+}
+
+.get-involved {
+    background-color: var(--fourth-color);
+    color: white;
+}
+
+.row .partner, .row .chapter {
+    height: 40vh;
+    vertical-align: middle;
+    color: white;
+}
+
+.partner {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/partnerbg.jpg");
 }
 
 /* FONTS */
@@ -28,3 +71,31 @@ h2 {
 h3 {
     font-size: 2.8rem;
 }
+
+.counter {
+    font-size: 3.0rem;
+}
+
+/* MISC */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: none;
+}
+
+    .carousel-control-next-icon:after {
+        content: '>';
+        font-size: 55px;
+        color: black;
+    }
+
+    .carousel-control-prev-icon:after {
+        content: '<';
+        font-size: 55px;
+        color:black;
+    }
