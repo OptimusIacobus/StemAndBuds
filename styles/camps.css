@@ -62,7 +62,14 @@
 }
 
 .info-section .collapse {
-    font-size: 2em;
+    font-size: 1.4em;
+}
+
+/* phone screens */
+@media (max-width: 687px ) {
+    .info-section .collapse {
+        font-size: 1em;
+    }
 }
 
 .video-container {
