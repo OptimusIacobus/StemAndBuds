@@ -13,7 +13,8 @@
     text-align: center;
 }
 
-.title {
+br {
+    margin-top: 0%;
 }
 
 .carousel-section {
@@ -35,12 +36,12 @@
     }    
 }
 .carousel-item {
-    height: 500px;
+    height: 300px;
     overflow: hidden;
 }
 
 .carousel-item img {
-    width: 50%;
+    width: 30%;
     display: block;
     margin: 0 auto;
 }
@@ -98,6 +99,7 @@ h3 {
 }
 
 /* MISC */
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     height: 100px;

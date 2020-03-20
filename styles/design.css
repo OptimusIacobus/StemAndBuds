@@ -70,7 +70,7 @@ br {
 }
 
 .caption {
-    font-size: 4vw;
+    font-size: 2vw;
     font-style: italic;
     color: white;
     font-family: 'Alatsi', sans-serif;
@@ -96,7 +96,11 @@ br {
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: var(--secondary-color);
-    transition-delay: .2s;
+    transition-delay: .3s;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
 }
 
 .navbar-brand {
