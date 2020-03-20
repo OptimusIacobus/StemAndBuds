@@ -1,0 +1,7 @@
+﻿body {
+}
+
+.btn-primary {
+    background-color: var(--main-color);
+    font-size: 1.4em;
+}
