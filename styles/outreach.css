@@ -6,3 +6,17 @@
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/outreachbg.JPG");
     background-size: 100%;
 }
+
+.subtitle {
+    font-size: .5em;
+}
+
+.signupbtn {
+    font-size: .6em;
+}
+/* phone screens */
+@media (max-width: 687px ) {
+    .signupbtn {
+        font-size: .3em;
+    }
+}
