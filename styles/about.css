@@ -93,6 +93,8 @@
 .volunteers-section {
     background-color: var(--fourth-color);
     color: white;
+    padding: 0 5% 5% 5%;
+    max-width: 100%;
 }
 
 .sponsor-section {
