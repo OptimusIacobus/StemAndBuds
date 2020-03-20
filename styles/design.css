@@ -54,6 +54,13 @@ br {
     border-radius: 8px;
 }
 
+/* phone screens */
+@media (max-width: 687px ) {
+    .btn-xl {
+        font-size: 1.6em;
+    }
+}
+
 /* FONTS */
 
 /*
