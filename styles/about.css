@@ -4,11 +4,16 @@
 /* FONTS */
 
 .subtitle {
-    font-size: 2.5em;
+    font-size: 2em;
     margin: 0 auto;
     max-width: 80%;
     align-items: center;
+    padding-top: 5%;
+}
+
+.cofounders-section .subtitle {
     padding-bottom: 5%;
+    padding-top: 0%;
 }
 
 .listmissionhow {
