@@ -15,20 +15,8 @@
 }
 
 .value-items {
-    margin: 4vh 4vw 4vh 4vw;
     align-content: center;
 }
-
-    .value-items .col-lg {
-        width: 100vw;
-        margin: 5vh;
-    }
-
-    .value-items img {
-        height: 10vh;
-        width: 4vw;
-        white-space: nowrap;
-    }
 
 .sponsor {
     height: 30vh;
