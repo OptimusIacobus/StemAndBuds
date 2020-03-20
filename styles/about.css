@@ -48,8 +48,9 @@
     padding-bottom: 4%;
 }
 
-.sponsor img{
-    height: 40%;
+.sponsor-section img{
+    height: 140px;
+    width: auto;
 }
 
 .col-centered {
