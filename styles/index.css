@@ -24,9 +24,16 @@
 }
 
 .carousel-caption h3 {
-   color: black;
+    color: black;
+    background: rgba(0, 0, 0, 0.1);
 }
 
+/* phone screens */
+@media (max-width: 687px ) {
+    .carousel-caption h3 {
+        font-size: 1.4em;
+    }    
+}
 .carousel-item {
     height: 500px;
     overflow: hidden;
@@ -52,18 +59,30 @@
 }
 
 .row .partner, .row .chapter {
-    height: 300px;
+    height: 40vh;
     vertical-align: middle;
     color: white;
 }
 
+/* phone screens */
+@media (max-width: 687px ) {
+    .row .partner, .row .chapter {
+        height: 70vh;
+        vertical-align: middle;
+        color: white;
+    }    
+}
+
 .chapter {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/chaptersbg2.jpg");
+    background-size: 100% 100%;
 }
 
 .partner {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/partnerbg.jpg");
 }
+
+
 
 /* FONTS */
 h2 {
