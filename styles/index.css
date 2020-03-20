@@ -24,8 +24,8 @@ br {
 
 .carousel-caption {
     position: relative;
-    left: auto;
-    right: auto;
+    
+    max-width: 70%;
 }
 
 .carousel-caption h3 {
