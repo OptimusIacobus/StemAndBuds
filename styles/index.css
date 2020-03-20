@@ -29,12 +29,12 @@
 }
 
 .carousel-item {
-    height: 700px;
+    height: 500px;
     overflow: hidden;
 }
 
 .carousel-item img {
-    width: 70%;
+    width: 50%;
     display: block;
     margin: 0 auto;
 }
