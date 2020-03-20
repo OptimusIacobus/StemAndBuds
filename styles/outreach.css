@@ -8,15 +8,15 @@
 }
 
 .subtitle {
-    font-size: .5em;
+    font-size: .28em;
 }
 
 .signupbtn {
-    font-size: .6em;
+    font-size: .4em;
 }
 /* phone screens */
 @media (max-width: 687px ) {
     .signupbtn {
-        font-size: .3em;
+        font-size: .28em;
     }
 }
