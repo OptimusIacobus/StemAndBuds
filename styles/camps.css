@@ -6,6 +6,45 @@
     background-size: cover;
 }
 
+.subtitlecamp {
+    font-size: 1.4em;
+    align-content: center;
+}
+
+/* MAPS */
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 600px;
+}
+
+
+/* phone screens */
+@media (max-width: 687px ) {
+    .mapouter {
+        position: relative;
+        text-align: right;
+        height: 300px;
+        width: 400px;
+    }
+
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 300px;
+        width: 400px;
+    }
+}
+
 /* SECTIONS */
 
 .video h1 {
