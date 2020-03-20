@@ -53,6 +53,22 @@
     width: auto;
 }
 
+/* small computer screens */
+@media (max-width:1280px ) {
+    .sponsor-section img {
+        height: 100px;
+        width: auto;
+    }
+}
+
+/* phone screens */
+@media (max-width: 687px ) {
+    .sponsor-section img {
+        height: 80px;
+        width: auto;
+    }    
+}
+
 .col-centered {
     float: none;
     margin: 0 auto;
