@@ -77,8 +77,7 @@ br {
     font-size: 16px !important;
     transition: 0.6s;
     -webkit-transition: 0.6s;/*for safari*/
-    background-color: white;
-    opacity: .7;
+    background-color: transparent;
     z-index: 1000;
 }
    
