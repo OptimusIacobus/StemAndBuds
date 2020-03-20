@@ -80,8 +80,16 @@ br {
     background-color: transparent;
     z-index: 1000;
 }
-   
-    
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--main-color);
+    font-size: 1.4em;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--secondary-color);
+    transition-delay: .2s;
+}
 
 .navbar-brand {
     font-size: 2em;
@@ -91,6 +99,7 @@ br {
 .nav-item {
     font-size: 1.5em;
     font-family: 'Alatsi', sans-serif;
+    color: var(--main-color);
 }
 
 .footer-list {
