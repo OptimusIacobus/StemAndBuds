@@ -2,10 +2,10 @@
 }
 
 .card-title {
-    font-size: 2em;
+    font-size: 2.3em;
 }
 
 .btn-primary {
     background-color: var(--main-color);
-    font-size: 1.2em;
+    font-size: 1em;
 }

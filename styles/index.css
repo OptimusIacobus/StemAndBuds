@@ -37,7 +37,7 @@ br {
 /* phone screens */
 @media (max-width: 687px ) {
     .carousel-caption h3 {
-        font-size: 1.2em;
+        font-size: .8em;
     }    
 }
 .carousel-item {
@@ -55,7 +55,7 @@ br {
 /* phone screens */
 @media (max-width: 687px ) {
     .carousel-item img {
-        height: 100px;
+        height: 50px;
     }
 }
 
@@ -100,15 +100,37 @@ br {
 
 /* FONTS */
 h2 {
-    font-size: 4.5rem;
+    font-size: 4.5em;
+}
+
+
+/* phone screens */
+@media (max-width: 687px ) {
+    h2 {
+        font-size: 2.8em;
+    }
 }
 
 h3 {
-    font-size: 2.8rem;
+    font-size: 2.8em;
+}
+
+/* phone screens */
+@media (max-width: 687px ) {
+    h3 {
+        font-size: 2.4em;
+    }
 }
 
 .counter {
-    font-size: 3.0rem;
+    font-size: 3.0em;
+}
+
+/* phone screens */
+@media (max-width: 687px ) {
+    .counter {
+        font-size: 2.5em;
+    }
 }
 
 /* MISC */
