@@ -69,22 +69,53 @@ br {
 */
 
 .title {
-    font-size: 10vw;
+    font-size: 8em;
     font-weight: 600;
     font-family: 'Alatsi', sans-serif;
     color: white;
 }
 
+/* phone screens */
+@media (max-width: 687px ) {
+    .title {
+        font-size: 4em;
+    }
+}
+
+/* small computers */
+@media (max-width: 1200px ) {
+    .title {
+        font-size: 6em;
+    }
+}
+
 .caption {
-    font-size: 2vw;
+    font-size: 2em;
     font-style: italic;
     color: white;
     font-family: 'Alatsi', sans-serif;
     font-weight: 400;
 }
 
+/* phone screens */
+@media (max-width: 687px ) {
+    .caption {
+        font-size: 1em;
+    }
+}
+
+/* small computers */
+@media (max-width: 1200px ) {
+    .caption {
+        font-size: 1.2em;
+    }
+}
+
 /* NAVBAR */
 .navbar {
+    width: 100%;
+    max-height: 15vh;
+    position: absolute;
     padding-top: 4px;
     padding-bottom: 4px;
     margin-bottom: 0;
@@ -93,17 +124,17 @@ br {
     -webkit-transition: 0.6s; /*for safari*/
     background-color: transparent;
     z-index: 1000;
-    border-bottom: 2px solid rgb(0,0,0);
+    border-bottom: 2px solid black;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link {
     color: var(--main-color);
     font-size: 1.2em;
     transition-property: color;
     transition-delay: .3s;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
+.navbar-dark .navbar-nav .nav-link:hover {
     color: var(--secondary-color);
     
 }
@@ -132,6 +163,10 @@ br {
     width: 70%;
 }
 
+    .footer-list a {
+        color: white;
+    }
+
 /* SECTIONS */
 
 
@@ -144,11 +179,9 @@ br {
 
 .header {
     background-size: cover;
-    height: 55%;
+    height: 50vh;
     text-align: center;
-    padding-top: 5%;
-    margin-top:-5%;
-    padding-bottom: 80px;
+    padding-top: 15vh;   
 }
 
 .section-title {
@@ -173,8 +206,8 @@ br {
 
 .footer {
     text-align: center;
-    background-color: black;
-    font-size: 1rem;
+    background-color: #7e96b8;
+    font-size: 1em;
     color: white;
     font-family: 'Lexend Deca', sans-serif;
 }
