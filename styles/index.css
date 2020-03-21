@@ -78,19 +78,19 @@ br {
 }
 
 .get-involved {
-    background-color: var(--fourth-color);
     color: white;
 }
 
-.row .partner, .row .chapter {
-    height: 40vh;
+.get-involved-sub {
+    height: 50vh;
     vertical-align: middle;
     color: white;
+    margin: 20px;
 }
 
 /* phone screens */
 @media (max-width: 687px ) {
-    .row .partner, .row .chapter {
+    .get-involved-sub {
         height: 70vh;
         vertical-align: middle;
         color: white;
@@ -150,7 +150,9 @@ hr {
     border-top: 3px solid var(--main-color);
 }
 
-
+.carousel-control-next, .carousel-control-prev {
+    bottom: 50%;
+}
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -159,14 +161,14 @@ hr {
 }
 
     .carousel-control-next-icon:after {
-        margin-left: 30%;
+        margin-left: 100%;
         content: '>';
         font-size: 40px;
         color: black;
     }
 
     .carousel-control-prev-icon:after {
-        margin-right: 30%;
+        margin-right: 100%;
         content: '<';
         font-size: 40px;
         color: black;
