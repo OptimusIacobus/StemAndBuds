@@ -8,3 +8,15 @@
 h2 {
     font-size: 2em;
 }
+
+.form {
+    width: 700px;
+    height: 1400px;
+}
+
+/* phone screens */
+@media (max-width: 687px ) {
+    .form {
+        width: 300px;
+    }
+}

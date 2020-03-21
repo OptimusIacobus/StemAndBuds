@@ -12,7 +12,7 @@
 }
 */
 :root {
-    --main-color:#5CDB95;
+    --main-color: #5CDB95;
     --secondary-color: #8EE4AF;
     --third-color: #EDF5E1;
     --fourth-color: #05386B;
@@ -75,17 +75,17 @@ br {
     color: white;
 }
 
-/* phone screens */
-@media (max-width: 687px ) {
+/* small computers */
+@media (max-width: 1200px ) {
     .title {
         font-size: 4em;
     }
 }
 
-/* small computers */
-@media (max-width: 1200px ) {
+/* phone screens */
+@media (max-width: 687px ) {
     .title {
-        font-size: 6em;
+        font-size: 3.0em;
     }
 }
 
@@ -97,6 +97,14 @@ br {
     font-weight: 400;
 }
 
+/* small computers */
+@media (max-width: 1200px ) {
+    .caption {
+        font-size: 1.2em;
+    }
+}
+
+
 /* phone screens */
 @media (max-width: 687px ) {
     .caption {
@@ -104,12 +112,6 @@ br {
     }
 }
 
-/* small computers */
-@media (max-width: 1200px ) {
-    .caption {
-        font-size: 1.2em;
-    }
-}
 
 /* NAVBAR */
 .navbar {
@@ -134,10 +136,9 @@ br {
     transition-delay: .3s;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover {
-    color: var(--secondary-color);
-    
-}
+    .navbar-dark .navbar-nav .nav-link:hover {
+        color: var(--secondary-color);
+    }
 
 .dropdown:hover > .dropdown-menu {
     display: block;
@@ -167,6 +168,10 @@ br {
         color: white;
     }
 
+    .footer-list a:hover {
+        color: lightgrey;
+    }
+
 /* SECTIONS */
 
 
@@ -181,7 +186,7 @@ br {
     background-size: cover;
     height: 50vh;
     text-align: center;
-    padding-top: 15vh;   
+    padding-top: 15vh;
 }
 
 .section-title {
@@ -220,22 +225,14 @@ br {
         font-family: 'Lexend Deca', sans-serif;
     }
 
-    .footer  a:hover {
+    .footer a:hover {
         text-decoration: none;
     }
 
-    .fa-instagram-square {
-        color: transparent;
-        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-        background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-        background-clip: text;
-        -webkit-background-clip: text;
-    }
+.fab {
+    color: white;
+}
 
-.fa-instagram-square:hover{
-    color: transparent;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    background-clip: text;
-    -webkit-background-clip: text;
+.fab:hover {
+    color: lightgray;
 }

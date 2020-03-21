@@ -20,6 +20,10 @@ br {
 .carousel-section {
     padding: 5% 10% 5% 10%;
     max-width: 80%;
+    position: relative;
+}
+
+.carousel-rect {
 }
 
 .carousel-caption {
