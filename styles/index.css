@@ -135,9 +135,11 @@ h3 {
 /* MISC */
 hr {
     height: 50px;
-    width:50%;
+    width:15em;
     border-top: 3px solid var(--main-color);
 }
+
+
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
