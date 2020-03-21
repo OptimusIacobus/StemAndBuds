@@ -111,28 +111,33 @@ h2 {
 }
 
 h3 {
-    font-size: 2.8em;
+    font-size: 2.5em;
 }
 
 /* phone screens */
 @media (max-width: 687px ) {
     h3 {
-        font-size: 2.4em;
+        font-size: 2em;
     }
 }
 
 .counter {
-    font-size: 3.0em;
+    font-size: 2.5em;
 }
 
 /* phone screens */
 @media (max-width: 687px ) {
     .counter {
-        font-size: 2.5em;
+        font-size: 2em;
     }
 }
 
 /* MISC */
+hr {
+    height: 50px;
+    width:50%;
+    border-top: 3px solid var(--main-color);
+}
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
