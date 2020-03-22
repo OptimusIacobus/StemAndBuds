@@ -142,7 +142,7 @@ br {
     -webkit-transition: 0.6s; /*for safari*/
     background-color: transparent;
     z-index: 1000;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
 }
 
 .navbar-dark .navbar-nav .nav-link {
