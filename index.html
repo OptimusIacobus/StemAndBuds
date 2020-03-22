@@ -31,6 +31,11 @@
 
 </head>
 <body>
+
+    <!-- TO TOP BUTTON -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-circle-up"></i></button>
+
+
     <!--nav bar-->
 
     <nav class="navbar navbar-dark navbar-expand-lg rounded">
@@ -65,7 +70,7 @@
             STEM & BUDS
             <br />
             <a href="#info">
-                <i class="fas fa-1x fa-chevron-circle-down" style="color: var(--main-color);"></i>
+                <i class="fas fa-1x fa-chevron-circle-down"></i>
             </a>
         </div>
     </div>
@@ -107,14 +112,14 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="box-shadow">
-                            <a target="_blank" href="https://www.wesa.fm/post/these-high-school-students-started-camp-help-younger-kids-discover-love-science#stream/0">
-                                <img class="d-block" style="" src="images/wesa.png" alt="First slide">
-                            </a>
                             <div class="carousel-caption">
                                 <h3>
                                     These High School Students Started A Camp To Help Younger Kids Discover A Love For Science
                                 </h3>
                             </div>
+                            <a target="_blank" href="https://www.wesa.fm/post/these-high-school-students-started-camp-help-younger-kids-discover-love-science#stream/0">
+                                <img class="d-block" style="" src="images/wesa.png" alt="First slide">
+                            </a>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -180,22 +185,25 @@
 
     <!-- GET INVOLVED -->
     <div class="container-fluid section get-involved">
-        <div class="row">
-            <div class="col-sm chapter get-involved-sub center">
-                <div style="transform: translateY(40%);">
+        <div class="row justify-content-around">
+            <div class="col-md-5 chapter get-involved-sub center">
+                <div style="">
                     <h3 class="center">START A CHAPTER</h3>
+                    <hr />
                     <p>Start a local chapter at your own school - teaching students has possibly been one of the most rewarding experiences for us!</p>
+
                     <div class="center">
-                        <a class="btn btn-primary" href="assets/Stem and Buds New Chapter Handbook 2020.pdf"><b>CHAPTER PACKET</b></a>
+                        <a class="btn" href="assets/Stem and Buds New Chapter Handbook 2020.pdf"><b>CHAPTER PACKET</b></a>
                     </div>
                 </div>
             </div>
-            <div class="col-sm partner get-involved-sub center">
-                <div style="transform: translateY(50%);">
+            <div class="col-md-5 partner get-involved-sub center">
+                <div style="">
                     <h3 class="center">BECOME A PARTNER</h3>
+                    <hr />
                     <p>Become a partner - companies and organizations like yours make our mission possible!</p>
                     <div class="center">
-                        <a class="btn btn-primary" href="assets/Stem and Buds Sponsor Packet 2020.pdf"><b>SPONSOR PACKET</b></a>
+                        <a class="btn" href="assets/Stem and Buds Sponsor Packet 2020.pdf"><b>SPONSOR PACKET</b></a>
                     </div>
                 </div>
             </div>
@@ -233,5 +241,6 @@
 
     <!-- LOCAL JS -->
     <script src="scripts/counter.js"></script>
+    <script src="scripts/toTop.js"></script>
 </body>
 </html>
