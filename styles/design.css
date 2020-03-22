@@ -13,10 +13,10 @@
 */
 :root {
     --main-color: #5CDB95;
-    --secondary-color: #8EE4AF;
-    --third-color: #EDF5E1;
-    --fourth-color: #05386B;
-    --fifth-color: #379683;
+    --secondary-color: #c6fce5;
+    --third-color: #ebfffa;
+    --fourth-color: #0dceda;
+    --fifth-color: #6ef3d6;
 }
 
 html {
@@ -106,7 +106,7 @@ br {
 }
 
 .caption {
-    font-size: 2em;
+    font-size: 1.5em;
     font-style: italic;
     color: white;
     font-family: 'Alatsi', sans-serif;
@@ -183,7 +183,6 @@ br {
 .footer-list {
     font-size: 1.2em;
     font-family: 'Lexend Deca', sans-serif;
-    margin-bottom: 2%;
     margin-right: auto;
     margin-left: auto;
     width: 70%;
