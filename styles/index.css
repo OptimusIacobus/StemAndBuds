@@ -128,14 +128,9 @@ br {
 }
 
 .get-involved-sub .btn {
-    background-color: var(--main-color);
-    color: white;
     transition: 0.3s;
     font-size: 1.2em;
 }
-    .get-involved-sub .btn:hover {
-        background-color: var(--secondary-color);
-    }
 
 .get-involved hr {
     height: 50px;

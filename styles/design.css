@@ -71,7 +71,7 @@ br {
     border: none;
     outline: none;
     background-color: transparent;
-    color: var(--main-color);
+    color: lightgray;
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
