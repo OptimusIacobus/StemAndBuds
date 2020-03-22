@@ -5,7 +5,6 @@
     font-size: 2em;
 }
 
-.btn-primary {
-    background-color: var(--main-color);
+.btn-secondary {
     font-size: 1em;
 }
