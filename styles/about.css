@@ -102,6 +102,18 @@
     max-width: 100%;
 }
 
+.openarc {
+    width: 400px;
+}
+
+/* phone screens */
+@media (max-width: 687px ) {
+    .openarc {
+        width: 300px;
+    }
+}
+
+
 .join-us-section {
     text-align: center;
     vertical-align: middle;
@@ -173,4 +185,29 @@
 
 .carousel-indicators .active {
     background-color: var(--secondary-color);
+}
+.carousel-control-prev, .carousel-control-next {
+    filter: invert(100%);
+}
+
+.carousel-control-prev {
+    left: -150px;
+}
+
+/* phone screens */
+@media (max-width: 687px ) {
+    .carousel-control-prev {
+        left: -80px;
+    }    
+}
+
+.carousel-control-next {
+    right: -150px;
+}
+
+/* phone screens */
+@media (max-width: 687px ) {
+    .carousel-control-next{
+        right: -80px;
+    }
 }

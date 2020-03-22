@@ -223,22 +223,28 @@ h3 {
     bottom: 50%;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-size: 100%, 100%;
-    background-image: none;
+.carousel-control-prev, .carousel-control-next {
+    filter: invert(100%);
 }
 
-    .carousel-control-next-icon:after {
-        margin-left: 100%;
-        content: '>';
-        font-size: 40px;
-        color: black;
-    }
+.carousel-control-prev {
+    left: -100px;
+}
 
-    .carousel-control-prev-icon:after {
-        margin-right: 100%;
-        content: '<';
-        font-size: 40px;
-        color: black;
+/* phone screens */
+@media (max-width: 687px ) {
+    .carousel-control-prev {
+        left: -60px;
     }
+}
+
+.carousel-control-next {
+    right: -100px;
+}
+
+/* phone screens */
+@media (max-width: 687px ) {
+    .carousel-control-next {
+        right: -60px;
+    }
+}
