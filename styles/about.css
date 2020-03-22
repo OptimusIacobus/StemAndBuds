@@ -87,11 +87,11 @@
 
 .cofounders-section {
     padding-top: -5%;
-    background-color: var(--third-color);
+    background-color: white;
 }
 
 .volunteers-section {
-    background-color: var(--fourth-color);
+    background-color: var(--secondary-color);
     color: black;
     padding: 0 5% 5% 5%;
     max-width: 100%;
