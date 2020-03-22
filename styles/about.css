@@ -92,7 +92,7 @@
 
 .volunteers-section {
     background-color: var(--fourth-color);
-    color: white;
+    color: black;
     padding: 0 5% 5% 5%;
     max-width: 100%;
 }
@@ -110,7 +110,7 @@
     height: 25%;
     font-size: 2em;
     font-weight: 800;
-    background-color: var(--fifth-color);
+    background-color: var(--secondary-color);
     font-family: 'Alatsi', sans-serif;
 }
 
