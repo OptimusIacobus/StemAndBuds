@@ -6,11 +6,18 @@
     background-size: cover;
 }
 
+h2 {
+    color: black;
+}
+
+.subtitle {
+    font-size: 4em;
+    color: black;
+}
+
 .subtitlecamp {
-    font-size: 1.4em;
-    align-content: center;
+    font-size: 1.2em;
     margin: 0 auto;
-    height:20%;
 }
 
 /* MAPS */
@@ -19,14 +26,14 @@
     position: relative;
     text-align: right;
     height: 500px;
-    width: 600px;
+    width: 100%;
 }
 
 .gmap_canvas {
     overflow: hidden;
     background: none !important;
     height: 500px;
-    width: 600px;
+    width: 100%;
 }
 
 
@@ -36,14 +43,14 @@
         position: relative;
         text-align: right;
         height: 300px;
-        width: 400px;
+        width: 100%;
     }
 
     .gmap_canvas {
         overflow: hidden;
         background: none !important;
         height: 300px;
-        width: 400px;
+        width: 100%;
     }
 }
 
@@ -60,13 +67,53 @@
 }
 
 .info-section {
-    margin: 5vh;
+    border-color: black;
+    color: black;
+    background-color: white;
+    border-width: medium;
+    border-style: solid;
+}
+
+
+
+.info-section-text {
+    padding: 20px;
+    font-size: 1.3em;
+}
+
+.info-section-text .fas {
+    font-size: 2em;
+}
+
+/* computer screens */
+@media (max-width: 1200px ) {
+    .info-section-text {
+        font-size: 1em;
+    }
+}
+
+/* Phone screens */
+@media (max-width: 687px ) {
+    .info-section-text {
+        font-size: .8em;
+    }
+}
+
+.info-section-text h2 {
+    font-size: 1.6em;
 }
 
 .info-section .collapse {
     font-size: 1.4em;
 }
 
+.info-outer-section .card {
+    background-color: var(--main-color);
+}
+
+.maps-section {
+    margin: 20px;
+}
 /* phone screens */
 @media (max-width: 687px ) {
     .info-section .collapse {
