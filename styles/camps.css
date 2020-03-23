@@ -15,11 +15,26 @@ h2 {
     color: black;
 }
 
-.subtitlecamp {
-    font-size: 1.2em;
-    margin: 0 auto;
-}
 
+.where-section {
+    font-size: 1em;
+}
+/* small computers */
+@media (max-width: 1200px ) {
+    .where-section .col-sm {
+        font-size: .8em;
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+/* phones */
+@media (max-width: 687px ) {
+    .where-section .col-sm{
+        font-size: .8em;
+        width: 40%;
+        margin: 0 auto;
+    }
+}
 /* MAPS */
 
 .mapouter {
@@ -75,29 +90,30 @@ h2 {
 }
 
 
-
 .info-section-text {
     padding: 20px;
     font-size: 1.3em;
 }
 
-.info-section-text .fas {
-    font-size: 2em;
-}
 
 /* computer screens */
 @media (max-width: 1200px ) {
     .info-section-text {
-        font-size: 1em;
+        font-size: .8em;
     }
 }
 
 /* Phone screens */
 @media (max-width: 687px ) {
     .info-section-text {
-        font-size: .8em;
+        font-size: .6em;
     }
 }
+
+.info-section-text .fas {
+    font-size: 2em;
+}
+
 
 .info-section-text h2 {
     font-size: 1.6em;

@@ -85,10 +85,17 @@ br {
 */
 
 .title {
-    font-size: 8em;
+    font-size: 7em;
     font-weight: 600;
     font-family: 'Alatsi', sans-serif;
     color: white;
+}
+
+/* medium computers */
+@media (max-width: 1400px ) {
+    .title {
+        font-size: 5em;
+    }
 }
 
 /* small computers */
@@ -211,7 +218,7 @@ br {
     background-size: cover;
     height: 50vh;
     text-align: center;
-    padding-top: 15vh;
+    padding-top: 10vh;
 }
 
 .section-title {
