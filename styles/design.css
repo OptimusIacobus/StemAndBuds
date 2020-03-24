@@ -163,6 +163,14 @@ br {
         color: lightgray;
     }
 
+/* and this styles the dropdwon trigger link, when open */
+.collapse.show {
+    background-color: grey;
+    opacity: .8;
+    margin: -2%;
+    padding: 2%;
+}
+
 .dropdown:hover > .dropdown-menu {
     display: block;
 }
@@ -277,3 +285,10 @@ br {
     .fab:hover {
         color: lightgray;
     }
+
+/* phone screens */
+@media (max-width: 687px ) {
+    .fab {
+        padding: 0 10px;
+    }
+}
