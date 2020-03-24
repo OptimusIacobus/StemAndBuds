@@ -247,6 +247,7 @@ br {
     font-size: 1em;
     color: white;
     font-family: 'Lexend Deca', sans-serif;
+    min-height: 250px;
 }
 
     .footer p {
@@ -264,6 +265,7 @@ br {
 .fab {
     color: white;
     transition: .3s;
+    padding: 0 20px;
 }
 
 .fab:hover {
