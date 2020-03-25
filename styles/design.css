@@ -165,11 +165,16 @@ br {
 
 /* and this styles the dropdwon trigger link, when open */
 .collapse.show {
-    background-color: grey;
-    opacity: .8;
-    margin: -2%;
-    padding: 2%;
+    float: right;
+    max-width: 500px;
 }
+
+    .collapse.show .navbar-nav {
+        width: 150px;
+        background-color: grey;
+        opacity: .8;
+        padding: 2%;
+    }
 
 .dropdown:hover > .dropdown-menu {
     display: block;
@@ -199,6 +204,7 @@ br {
 .nav-item {
     font-size: 1.3em;
     font-family: 'Alatsi', sans-serif;
+    text-align: right;
 }
 
 .footer-list {
