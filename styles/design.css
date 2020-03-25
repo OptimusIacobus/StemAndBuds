@@ -172,7 +172,6 @@ br {
     .collapse.show .navbar-nav {
         width: 150px;
         background-color: grey;
-        opacity: .8;
         padding: 2%;
     }
 
