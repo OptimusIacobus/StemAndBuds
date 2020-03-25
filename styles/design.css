@@ -206,6 +206,16 @@ br {
     text-align: right;
 }
 
+.nav-item.dropdown:hover {
+    left: auto; /* Bring back on-screen when needed */
+    right: 0;
+    margin-left: -30px;
+}
+
+.dropdown-menu {
+    margin-left: -30px;
+}
+
 .footer-list {
     font-size: 1.2em;
     font-family: 'Lexend Deca', sans-serif;
